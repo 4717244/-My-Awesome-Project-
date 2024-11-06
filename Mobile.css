@@ -1,0 +1,215 @@
+
+@media only screen and (max-width: 600px) {
+
+  header{
+      width: 100%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      z-index: 1;
+  }
+    .nav{
+        width: 550px;
+    }
+  nav .logo{
+       padding-left: 50px;
+       font-size: 32px;
+   }
+  .check-btn{
+      display: block
+  }
+.nav-links{
+    height: 100vh;
+    background: var(--dark-blue-color);
+    top: 80px;
+    left: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: -187px;
+    margin-top: 91px;
+    transition: all .5s;
+  }
+.nav-buttons{
+    gap: 90px;
+    width: 100%;
+    height: 138px;
+    display: flex;
+    margin-left: 178px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 22px;
+}
+#check:checked ~ ul{
+    left:0;
+}
+nav ul{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    padding-top: 40px;
+}
+  nav ul li{
+      display: block;
+  }
+  nav ul li a{
+      font-size: 24px;
+  }
+    .banner-section{
+        width: 100%;
+        padding-top: 0;
+    }
+ .banner-cards{
+     width: 600px;
+     padding-bottom: 250px;
+ }
+    .banner-cards .container {
+        top: -154px;
+     }
+ .container{
+     width: 600px;
+     padding: 0 27px;
+     display: flex;
+     justify-content: center;
+ }
+ .header-contents{
+     width: 864px;
+     height: 760px;
+ }
+ .col-card .card-container{
+     padding: 12px;
+ }
+ .col-card{
+     gap:20px;
+ }
+    .col-card .card-container2{
+        padding: 12px;
+    }
+    .col-card .card-container2 h3{
+        font-size: 15px;
+
+    }
+    .col-card .card-container h3 {
+        font-size: 15px;
+
+    }
+    .courses-section{
+        width: 542px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        height: 756px;
+        padding: 0;
+    }
+    .client-section{
+        width: 522px;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 900px;
+        padding: 80px 0;
+    }
+    .quality-section{
+        width: 522px;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .quality-cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .quality-cards img{
+        width:238px;
+        height: 480px;
+    }
+    .popular-courses-section{
+        width: 100%;
+        padding: 0;
+        margin-top: 92px;
+    }
+    .practice-section{
+        width: 550px;
+    }
+    .practice-section .popular-text-section{
+        width: 550px;
+        height: 134px;
+        display: flex;
+        flex-direction: column;
+        margin-top:30px;
+    }
+    .popular-cards {
+        gap: 20px;
+        width: 545px;
+        display: flex;
+        margin-top: 249px;
+        margin-left: -547px;
+    }
+    .popular-card1{
+        width: 240px;
+        padding: 30px 15px;
+    }
+    .testimonials-text{
+        width: 550px;
+        padding: 132px 0;
+    }
+    .designer{
+        width: 545px;
+        height: 591px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 300px;
+        margin-left: -547px;
+    }
+    .designer-content{
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+    }
+    .newsletter-text-section{
+        width: 550px;
+        height: 134px;
+        margin: 100px auto 0 auto;
+    }
+    .newsletter-content .subscribe-form{
+        width:550px;
+    }
+    .newsletter-content{
+        padding: 210px 0 100px 0;
+    }
+    .main-footer{
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 18px;
+    }
+    .footer-social{
+        margin-top: 179px;
+    }
+    .footer-social .footer-social-content{
+        width:550px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+
+}
+
+@media only screen and (min-width: 992px) {
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+}
